@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type:none;
+    background-color: rgba(137, 43, 226, 0.774);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a{
+display: block;
+padding: 16px;
+text-decoration: none;
+text-align: center;
+color: white;
+}
+
+li{
+    float: left;
+    width: 25%;
+}
+li:hover{  background-color: rgba(120, 35, 199, 0.774);}
+
+body{
+    background-color: rgba(137, 43, 226, 0.774);
+}
+
+iframe{
+    border: none;
+    width: 100%;
+    overflow-y: hidden;
+    height: 500px;
+}
